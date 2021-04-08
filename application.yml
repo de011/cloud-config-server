@@ -21,8 +21,8 @@ microservice:
          product-service:
     endpoints:
       endpoint:
-        uri: http://PRODUCT-APPLICATION/api/cigna/save/product 
-        uri: http://PRODUCT-APPLICATION/api/cigna/find/all
-        uri: http://PRODUCT-APPLICATION/api/cigna/find/product/byid 
+        uri: http://PRODUCT_APPLICATION/api/cigna/save/product 
+        uri: http://PRODUCT_APPLICATION/api/cigna/find/all
+        uri: http://PRODUCT_APPLICATION/api/cigna/find/product/byid 
        
         
