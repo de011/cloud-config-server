@@ -18,8 +18,13 @@ microservice:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder 
         
-         order-service:
+         product-service:
     endpoints:
       endpoint:
-        uri: http://PRODUCT-APPLICATION//api/cigna//save/product 
+        uri: http://PRODUCT-APPLICATION/api/cigna/save/product 
+        endpoint:
+        uri: http://PRODUCT-APPLICATION/api/cigna/find/all
+        endpoint:
+        uri: http://PRODUCT-APPLICATION/api/cigna/find/product/byid 
+       
         
