@@ -13,15 +13,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
-  order-service:
-    endpoints:
-      endpoint:
-        uri: http://ORDER-SERVICE/order/bookOrder 
-        
   product-application:
     endpoints:
       endpoint:
-        uri: http://PRODUCT_APPLICATION/api/cigna/save/product 
-       
+        uri: http://PRODUCT-APPLICATION/api/cigna/save/product
+        
        
         
